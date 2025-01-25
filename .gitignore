@@ -1,0 +1,17 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore model checkpoints
+*.h5
+*.keras
+
+# Ignore dataset (if not uploading)
+data/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
